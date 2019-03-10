@@ -1,0 +1,884 @@
+
+
+
+
+@media (min-width: 768px) and (max-width: 1235px) {
+    .wrap {
+        max-width: 1500px;
+    }
+    .inner {
+        max-width: 900px;
+    }
+
+    .head-top {
+        padding:0px 20px;
+    }
+
+    .head-bottom {
+        padding:0px 20px;
+    }
+
+    .header-contacts {
+        display:none;
+    }
+
+    .header-block {
+        padding:0px 20px;
+    }
+
+    .header-logo_position {
+        margin-right: 50px;
+    }
+
+    
+    .information-text_position {
+        padding-top: 120px;
+        padding-right: 150px;
+        padding-left: 150px;
+    }
+    .forms-position {
+        padding-top: 50px;
+        padding-left: 50px;
+        padding-right: 90px;
+    }
+
+    .advantages {
+        margin-right:10px;
+    }
+
+    .company {
+        background-color: white;
+        display: flex;
+        justify-content: flex-end;
+        height: 100%;
+       padding-left:110px;
+       padding-right:10px;
+        
+    }
+
+    .news-pages_position {
+        margin-top: 120px;
+        margin-right: 110px;
+        margin-left:10px;
+    }
+
+
+/* ------- */
+.materials {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.products-info {
+    display: flex;
+   
+    justify-content: flex-end;
+}
+
+.products-title {
+    font-family: "Circe-Extra";
+    font-size: 26px;
+    color: #ffffff;
+    line-height: 46px;
+    cursor: pointer;
+    text-align: center
+}
+
+.products-title_position {
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.materials-items {
+    display:flex;
+   justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.materials-item {
+    font-family: "Circe-Bold";
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.materials__price {
+    text-align: center;
+}
+
+.materials__product {
+    text-align: center;
+}
+
+.materials-item img {
+    width: 110%;
+    height: auto;
+   
+}
+.materials-item_position {
+   
+    margin:50px 20px;
+}
+
+
+.main-leftside {
+    padding:0px 20px;
+}
+
+.main-rightside::before {
+    display:none;
+}
+
+
+/* ------ */
+
+
+
+
+
+    .question-form {
+        filter: drop-shadow(0 -30px red);
+    }
+    input {
+        width: 300px;
+    }
+
+    
+    .head-right {
+        margin-top: 140px;
+        margin-left: 100px;
+    }
+
+
+/* -rrrreeeeddd */
+.question-column {
+    flex-direction: row;
+}
+
+.question-block1 {
+    width: 100%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.question-block2 {
+    width: 100%;
+    background: red;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.question-form {
+    
+    filter: none;;
+}
+
+.information-text_position {
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    text-align: center;
+    
+}
+
+.information-mail_position {
+    margin-top: 25px;
+}
+
+
+.question-contacts {
+    height: 100%;
+    
+   
+    text-decoration: none;
+    color: white;
+    font-family: "Circe-Extra";
+    font-size: 18px;
+    background: url("../img/phone.png") no-repeat left center;
+    
+}
+
+.question-contacts_b {
+    color: black;
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background: url("../img/phoneblack.png") no-repeat left center;
+    
+}
+
+.information {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.information-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information-title_position {
+   
+   margin-top: 50px;
+    
+}
+
+.form {
+    width:100%;
+}
+
+.forms-position {
+    padding-top: 120px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+
+.form-button_position {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.footer-blocks_position {
+    padding: 100px 20px;
+}
+
+
+.slider {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.slider-inner {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slider-slides {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.slider-slides img{
+    margin-bottom: 25px;
+    
+}
+
+
+.slider-text_position {
+    margin-top: 80px;
+    padding-bottom: 100px;
+}
+
+
+.opportunity-title_position {
+    margin-bottom: 55px;
+    padding: 50px 20px 25px 20px;
+}
+
+.opportunity_position {
+    margin-bottom: 75px;
+    padding: 0px 0px 10px 30px;
+}
+
+.opportunity {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.news-image {
+    position: absolute;
+    right: -20px;
+    bottom: -270px;
+}
+
+.news-text_position {
+    padding-top: 60px;
+    padding-left: 70px;
+    margin-right: 148px;
+    padding-right:20px;
+}
+
+.news-pages_position {
+    margin-left:30px;
+}
+
+.pages-date_position {
+    padding-top: 26px;
+    padding-left: 70px;
+    padding-bottom: 40px;
+}
+
+}
+
+
+
+
+
+
+
+
+@media (min-width: 1140px) and (max-width: 1590px) {
+   
+    .header-block {
+        padding:0px 20px;
+    }
+   
+    .advantages {
+        margin-right:10px;
+    }
+   
+    .information-text_position {
+        padding-top: 120px;
+        padding-right: 150px;
+        padding-left: 150px;
+    }
+    .forms-position {
+        padding-top: 120px;
+        padding-left: 50px;
+        padding-right: 70px;
+    }
+
+    .information-text {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 768px) {
+    
+    .header-block {
+        padding:0px 20px;
+    }
+
+    .wrap {
+        max-width: 1200px;
+    }
+    .inner {
+        max-width: 768px;
+    }
+    
+    
+    .head-right {
+        display:none;
+    }
+    .head-title {
+    width:100%;
+    font-size: 26px;
+    color: #ffffff;
+    line-height: 30px;
+    text-align: center;
+    }
+
+    .head-title_position {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .header-menu {
+        display:none;
+    }
+
+    .header-contacts {
+        display:none;
+    }
+
+
+    .head-top {
+        display: flex;
+        justify-content: center;
+        height: 50%;
+    }
+
+
+
+    .head-background {
+        background: #1b2a39 url("../img/background.jpg") no-repeat center center;
+        width: 100%;
+        height: 100%;
+    }
+        
+        
+
+    .head-bottom {
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .advantages {
+       width:100%;
+       display:flex;
+       flex-direction: column;
+       align-items: center;
+       margin-bottom: 20px;
+    }
+
+    .advantages-text {
+        font-family: "Circe-Regular";
+        font-size: 16px;
+        color: #ffffff;
+        text-align: center;
+    }
+
+    .circle {
+        background: rgba(255, 255, 255) url("../img/11.png") no-repeat 50% 50%;
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+    }
+
+    .advantages-text_position {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+
+    .materials {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .products-info {
+        display: flex;
+       
+        justify-content: flex-end;
+    }
+
+    .products-title {
+        font-family: "Circe-Extra";
+        font-size: 26px;
+        color: #ffffff;
+        line-height: 46px;
+        cursor: pointer;
+        text-align: center
+    }
+    
+    .products-title_position {
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+
+    .materials-items {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+  
+    .materials-item {
+        font-family: "Circe-Bold";
+        font-size: 18px;
+        color: #ffffff;
+        line-height: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+    .materials__price {
+        text-align: center;
+    }
+
+    .materials__product {
+        text-align: center;
+    }
+
+    .materials-item img {
+        width: 100%;
+        height: auto;
+       
+    }
+    .materials-item_position {
+       
+        margin:20px 0px;
+    }
+
+
+
+    .main-rightside {
+        order:1;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .main-aside {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Circe-Regular";
+        font-size: 18px;
+        color: red;
+        line-height: 30px;
+    }
+    
+    .main-aside_position {
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    
+    .main-aside img {
+        margin-top: 20px;
+    }
+    
+    .main-aside__title {
+        font-family: "Circe-Bold";
+        font-size: 18px;
+        color: #1b2a39;
+        line-height: 46px;
+        text-align:center;
+       
+    }
+
+    .main-aside__text {
+        display:none;
+    }
+
+    .main-aside__title {
+        
+        margin-bottom: 50px;
+    }
+
+
+    .main {
+        background-color: #eaf0f3;
+        width: 100%;
+    }
+
+        .main-blocks {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            position: relative;
+        }
+
+        .main-leftside {
+            order:2;
+            position: relative;
+            background-color: #eaf0f3;
+            width:100%;
+            display: flex;
+            justify-content: center;
+            filter: none;
+            
+            
+        }
+        
+        .main-rightside::before {
+            display:none;
+        }
+
+        .odds {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+           
+        }
+        
+        .odds-item_position:last-child {
+            margin-bottom: 100px;
+        }
+        
+        .odds-item_position:first-child {
+            margin-top: 20px;
+        }
+
+
+
+
+
+
+
+
+
+
+        .news {
+            background-color: #eaf0f3;
+            position: relative;
+            font-family: "Circe-Extra";
+            font-size: 18px;
+            color: #1b2a39;
+            line-height: 32px;
+        }
+
+
+        .news_blocks {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        
+        .news-right {
+            width: 100%;
+            background-color: #eaf0f3;
+            position: relative;
+            filter: none;
+        }
+
+        .news-left {
+            width: 100%;
+            background-color: #1b2a39;
+            display: flex;
+            justify-content: center;
+            position: relative;
+            padding-bottom:250px;
+            
+        }
+
+        .news-letter {
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+            position: relative;
+            margin-bottom:100px;
+        }
+
+
+
+        .news-left:before {
+            display:none;
+        }
+
+        .news-right {
+            width: 100%;
+            background-color: #eaf0f3;
+            position: relative;
+            filter: none;
+        }
+
+
+        .news-pages {
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+            max-width: 458px;
+            max-height: 530px;
+        }
+        
+        .news-pages_position {
+            margin-top: 0px;
+            margin-right: 0px;
+        }
+
+        
+        
+        .news-title_position {
+            padding-bottom: 61px;
+            text-align:center;
+        }
+
+
+
+
+
+
+
+
+
+
+
+/* -------red------ */
+
+.question-column {
+    flex-direction: column;
+}
+
+.question-block1 {
+    width: 100%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.question-block2 {
+    width: 100%;
+    background: red;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.question-form {
+    
+    filter: none;;
+}
+
+.information-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information-text_position {
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    text-align: center;
+    
+}
+
+.information-mail_position {
+    margin-top: 25px;
+}
+
+
+.question-contacts {
+    height: 100%;
+    
+   
+    text-decoration: none;
+    color: white;
+    font-family: "Circe-Extra";
+    font-size: 18px;
+    background: url("../img/phone.png") no-repeat left center;
+    
+}
+
+.question-contacts_b {
+    color: black;
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background: url("../img/phoneblack.png") no-repeat left center;
+    
+}
+
+.information {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.information-title_position {
+   
+   margin-top: 50px;
+    
+}
+
+.form {
+    width:100%;
+}
+
+.forms-position {
+    padding-top: 120px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+
+.form-button_position {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.footer-blocks {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* justify-content: space-between; */
+}
+
+.footer-menu {
+    display:none;
+}
+
+
+.company {
+   
+    
+    justify-content: center;
+}
+
+.opportunity-title_position {
+    margin-bottom: 55px;
+    padding: 50px 20px 25px 20px;
+}
+
+.opportunity_position {
+    margin-bottom: 75px;
+    padding: 0px 0px 10px 30px;
+}
+
+.opportunity {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.opportunity-item_position{
+    padding-left: 30px;
+}
+
+.opportunity-item_position {
+    margin-right: 50px;
+}
+
+
+.slider {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.slider-inner {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slider-slides {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.slider-slides img{
+    margin-bottom: 25px;
+    
+}
+
+
+.slider-text_position {
+    margin-top: 80px;
+    padding-bottom: 100px;
+}
+
+
+}
