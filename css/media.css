@@ -1017,10 +1017,16 @@
     width:100%;
 }
 
+.form__text {
+    width: 300px;
+    
+}
+
+
 .forms-position {
     padding-top: 120px;
     padding-left: 15px;
-    padding-right: 15px;
+    padding-right: 10px;
 }
 
 
