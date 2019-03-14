@@ -509,7 +509,7 @@
         display: none;
     }
     .wrap {
-        max-width: 1200px;
+        max-width: 768px;
     }
     .inner {
         max-width: 768px;
@@ -891,7 +891,7 @@
     .question-form {
         -webkit-filter: none;
         filter: none;
-        ;
+        
     }
     .information-text {
         display: -webkit-box;
@@ -948,13 +948,17 @@
     .form {
         width: 100%;
     }
+.forms {
+    border:1px solid black;
+}
+
     .form__text {
         width: 280px;
     }
     .forms-position {
         padding-top: 120px;
-        padding-left: 15px;
-        padding-right: 10px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
     .form-button_position {
         margin-top: 50px;
