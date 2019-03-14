@@ -368,7 +368,7 @@
         display: none;
     }
     .header-logo-b {
-        vertical-align: center;
+       
         height: 100%;
     }
     .header-logo_position-b {
@@ -377,13 +377,18 @@
     /* -------burger------- */
     .burger-wrapper {
         display: block;
-        margin: auto 0 auto auto;
+        margin: auto auto auto auto;
         height: 50px;
         width: 100%;
         background-color: #1b2a39;
         position: relative;
+        top:15px;
         text-align: center;
         font-family: 'Arial';
+        
+        
+       
+        
     }
     #check-menu {
         display: none;
@@ -434,7 +439,8 @@
         -webkit-box-pack: justify;
             -ms-flex-pack: justify;
                 justify-content: space-between;
-        padding-top: 15px;
+        
+        
     }
     .main-menu {
         background-color: red;
@@ -987,7 +993,7 @@
        justify-content: space-between;
        align-items: space-between;
        align-content: center;
-       border:1px solid red;
+       
     }
     .opportunity-item_position {
         padding-left: 30px;
@@ -996,50 +1002,13 @@
         margin-right: 50px;
         margin-bottom:30px;
     }
-    .slider {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
+    
+    .sl_ctr {
+        position: relative;
+        max-width: 300px;
+        height: 100%;
+        overflow: hidden;
     }
-    .slider-inner {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
-    }
-    .slider-slides {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
-    }
-    .slider-slides img {
-        margin-bottom: 25px;
-    }
-    .slider-text_position {
-        margin-top: 80px;
-        padding-bottom: 100px;
-    }
+
+
 }
