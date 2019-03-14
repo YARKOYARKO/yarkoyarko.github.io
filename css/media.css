@@ -457,7 +457,7 @@
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
         flex-direction: column;
-        z-index: 999;
+        z-index: 999999;
     }
     .burger-link {
         margin-bottom: 50px;
@@ -481,7 +481,7 @@
         font-size: 20px;
         width: 100%;
         -webkit-transform: translatex(-500px) translateY(100px);
-        transform: translatex(0px) translateY(20px);
+        transform: translatex(0px) translateY(15px);
     }
     #check-menu:checked .burger-wrapper {
         margin: 0;
@@ -583,6 +583,7 @@
         height: 70px;
         width: 70px;
         border-radius: 50%;
+        
     }
 
     .circle_beton {
@@ -981,21 +982,19 @@
         padding: 0px 0px 10px 30px;
     }
     .opportunity {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        -webkit-box-align: start;
-        -ms-flex-align: start;
-        align-items: flex-start;
+       display:flex;
+       flex-direction: column;
+       justify-content: space-between;
+       align-items: space-between;
+       align-content: center;
+       border:1px solid red;
     }
     .opportunity-item_position {
         padding-left: 30px;
     }
     .opportunity-item_position {
         margin-right: 50px;
+        margin-bottom:30px;
     }
     .slider {
         display: -webkit-box;
