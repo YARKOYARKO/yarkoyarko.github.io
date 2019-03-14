@@ -279,18 +279,18 @@ body {
 }
 
 .circle {
-    background: rgba(255, 255, 255) url("../img/11.png") no-repeat 50% 50%;
+    background: rgb(255, 255, 255) url("../img/11.png") no-repeat 50% 50%;
     height: 70px;
     width: 70px;
     border-radius: 50%;
 }
 
 .circle_beton {
-    background: rgba(255, 255, 255) url("../img/22.png") no-repeat 50% 50%;
+    background: rgb(255, 255, 255) url("../img/22.png") no-repeat 50% 50%;
 }
 
 .circle_production {
-    background: rgba(255, 255, 255) url("../img/33.png") no-repeat 50% 50%;
+    background: rgb(255, 255, 255) url("../img/33.png") no-repeat 50% 50%;
 }
 
 /* --------products------------- */
