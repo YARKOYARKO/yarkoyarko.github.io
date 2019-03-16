@@ -448,7 +448,7 @@
     }
     .burger-line {
         position: absolute;
-        top: 12px;
+        top: 22px;
         right: 10px;
         width: 35px;
         height: 2px;
@@ -458,10 +458,10 @@
     }
     .second,
     .third {
-        top: 22px;
+        top: 32px;
     }
     .fourth {
-        top: 32px;
+        top: 42px;
     }
     .header {
         background-color: #1b2a39;
@@ -1105,5 +1105,9 @@
         padding-bottom: 50px;
     }
 
+
+    .footer-text_position-right {
+        margin-bottom: 8px;
+    }
 
 }
