@@ -119,10 +119,27 @@
     .materials-item img {
         width: 110%;
         height: auto;
+        
     }
     .materials-item_position {
         margin: 50px 20px;
     }
+
+    .materials-items__block1 {
+        display:flex;
+     }
+
+     .materials-item  {
+         justify-content: center;
+     }
+
+
+    .materials-items__block2 {
+        display:flex;
+    }
+
+  
+
     .main-leftside {
         padding: 0px 20px;
     }
@@ -288,7 +305,7 @@
     }
     .slider-text_position {
         margin-top: 80px;
-        padding-bottom: 100px;
+        padding-bottom: 50px;
     }
     .opportunity-title_position {
         margin-bottom: 55px;
@@ -309,15 +326,30 @@
         -ms-flex-align: start;
         align-items: flex-start;
     }
+
+    .opportunity-item {
+        
+        -ms-flex-align: end;
+        align-items: flex-end;
+        justify-content: flex-start
+        
+    }
+
+
+
+
     .news-image {
         position: absolute;
         right: -20px;
-        bottom: -270px;
+        bottom: -300px;
     }
+
+
+
     .news-text_position {
         padding-top: 60px;
-        padding-left: 70px;
-        margin-right: 148px;
+        padding-left: 30px;
+        margin-right: 0px;
         padding-right: 20px;
     }
     .news-pages_position {
@@ -326,7 +358,7 @@
     .pages-date_position {
         padding-top: 26px;
         padding-left: 70px;
-        padding-bottom: 40px;
+        padding-bottom: 50px;
     }
 }
 
@@ -362,14 +394,23 @@
 }
 
 @media (min-width: 320px) and (max-width: 768px) {
+    .header {
+        background-color: #1b2a39;
+        padding: 0px 0px;
+    }
+    
     .header-block {
         padding: 0px 20px;
         z-index: 9999;
         display: none;
+
+
+        
     }
     .header-logo-b {
-       
-        height: 100%;
+       position: absolute;
+        top:0;
+        right:30%;
     }
     .header-logo_position-b {
         padding-left: 10px;
@@ -377,7 +418,7 @@
     /* -------burger------- */
     .burger-wrapper {
         display: block;
-        margin: auto auto auto auto;
+        margin: auto;
         height: 50px;
         width: 100%;
         background-color: #1b2a39;
@@ -385,6 +426,7 @@
         top:15px;
         text-align: center;
         font-family: 'Arial';
+        
         
         
        
@@ -406,7 +448,7 @@
     }
     .burger-line {
         position: absolute;
-        top: 8px;
+        top: 12px;
         right: 10px;
         width: 35px;
         height: 2px;
@@ -416,10 +458,10 @@
     }
     .second,
     .third {
-        top: 18px;
+        top: 22px;
     }
     .fourth {
-        top: 28px;
+        top: 32px;
     }
     .header {
         background-color: #1b2a39;
@@ -483,11 +525,15 @@
         background-color: #DC143C;
     }
     #check-menu:checked~.main-menu {
+        font-family: "Circe-Regular";
+        
+        color: #1b2a39;
+        line-height: 30px;
         max-height: 1000px;
         font-size: 20px;
         width: 100%;
         -webkit-transform: translatex(-500px) translateY(100px);
-        transform: translatex(0px) translateY(15px);
+        transform: translatex(0px) translateY(70px);
     }
     #check-menu:checked .burger-wrapper {
         margin: 0;
@@ -509,7 +555,7 @@
         display: none;
     }
     .wrap {
-        max-width: 768px;
+        max-width: 900px;
     }
     .inner {
         max-width: 768px;
@@ -645,6 +691,7 @@
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center;
+        padding:0px 20px;
     }
     .materials-item {
         font-family: "Circe-Bold";
@@ -721,7 +768,9 @@
     }
     .main-aside__title {
         margin-bottom: 50px;
+        padding:0px 10px;
     }
+
     .main {
         background-color: #eaf0f3;
         width: 100%;
@@ -776,6 +825,11 @@
     .odds-item_position:first-child {
         margin-top: 20px;
     }
+
+.odds-item_position {
+    padding:0px 10px;
+}
+
     .news {
         background-color: #eaf0f3;
         position: relative;
@@ -854,9 +908,30 @@
         margin-right: 0px;
     }
     .news-title_position {
-        padding-bottom: 61px;
+        padding-bottom: 30px;
+        padding-top: 30px;
         text-align: center;
     }
+
+    .news-text_position {
+        padding-top: 30px;
+        padding-left: 70px;
+        padding-right: 50px;
+    }
+
+
+    .company-title_position {
+       padding:0px 10px;
+    }
+    
+    .company-link_position {
+        padding:0px 10px;
+    }
+
+    .company-text_position {
+        padding:0px 10px;
+     }
+
     /* -------red------ */
     .question-column {
         -webkit-box-orient: vertical;
@@ -948,12 +1023,11 @@
     .form {
         width: 100%;
     }
-.forms {
-    border:1px solid black;
-}
+
 
     .form__text {
         width: 280px;
+        padding:0px 10px;
     }
     .forms-position {
         padding-top: 120px;
@@ -975,6 +1049,17 @@
         justify-content: space-around;
         /* justify-content: space-between; */
     }
+
+
+.information-faq{
+    padding:0px 10px;
+}
+
+
+.footer-develop {
+    padding:0px 10px;
+}
+
     .footer-menu {
         display: none;
     }
@@ -995,8 +1080,8 @@
        display:flex;
        flex-direction: column;
        justify-content: space-between;
-       align-items: space-between;
-       align-content: center;
+       align-items: flex-start;
+       align-content: space-between;
        
     }
     .opportunity-item_position {
@@ -1012,6 +1097,12 @@
         max-width: 300px;
         height: 100%;
         overflow: hidden;
+    }
+
+
+    .slider-text_position {
+        margin-top: 80px;
+        padding-bottom: 50px;
     }
 
 

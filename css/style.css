@@ -342,6 +342,14 @@ body {
     display: flex;
 }
 
+.materials-items__block1 {
+    display:flex;
+}
+
+.materials-items__block2 {
+    display:flex;
+}
+
 .materials-item_position {
     margin-right: 30px;
     margin-top: 50px;
@@ -365,6 +373,7 @@ body {
 .materials-item img {
     width: 100%;
     height: auto;
+    padding-right: 10px;
 }
 
 /* ----------------other----------- */
